@@ -4,26 +4,14 @@
     box-sizing: border-box;
 }
 
-/* LAYOUT */
 .container-full{
     width: 100%;
     margin: 0 auto;
     background-color: blue;
 }
 
-.row-header{
-    display: flex;
-    justify-content: space-between;
-}
-
-.col-30{
-    width: 18%;
-    background-color: red;
-    height: 50px;
-}
-
-.container{
-    width: 100vw;
+.container-100{
+    width: 100%;
     background-color: skyblue;
     margin: 0 auto;
     height: 400px;
@@ -35,18 +23,40 @@
     background-color: black;
     height: 400px;
 }
-.row-center{
-    display: flex;
-    justify-content: center;
+.container-70{
+    margin: 0 auto;
+    width: 60%;
+    background-color: darkgreen;
 }
 
-.col-100{
-    width: 80%;
-    background-color: burlywood;
-    height: 40px;
+.container-70-yellow{
+    margin: 0 auto;
+    width: 60%;
+    background-color: rgba(172, 172, 8, 0.523);
+}
+
+
+
+/* MARGIN PADDING */
+.margin-top-40{
     margin-top: 40px;
 }
 
+.margin-top-30{
+    margin-top: 30px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+/* LAYOUT */
+
+.col-30{
+    width: 18%;
+    background-color: red;
+    height: 50px;
+}
 .col-25{
     margin-top: 30px;
     width: 25%;
@@ -61,4 +71,92 @@
     background-color: rgb(87, 165, 42);
     height: 200px;
 }
+
+.col-80{
+    width: 80%;
+    background-color: burlywood;
+    height: 40px;
+}
+.col-100{
+    width: 100%;
+    background-color: burlywood;
+    height: 40px;
+}
+
+.col-30-box{
+    width: calc(100% / 3);
+    height: 300px;
+    background-color: gold;
+}
+.col-33{
+    width: calc(100% / 3 - 10px);
+    background-color: yellowgreen;
+    height: 400px;
+    margin: 5px;
+}
+
+.col-60{
+    width: 60%;
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.col-40{
+    width: 40%;
+    background-color: blueviolet;
+    height: 100px;
+}
+/* CONTAINER  */
+
+
+
 /* UTILITY */
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-bet{
+    justify-content: space-between;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+.border{
+    border: 1px dashed black;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.absolute-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.absolute-bot-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.absolute-bot-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.box{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(7, 137, 252);
+}
