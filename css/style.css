@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+footer{
+    background-color: black;
+}
+
+/* CONTAINER */
 .container-full{
     width: 100%;
     margin: 0 auto;
@@ -104,6 +109,13 @@
 .col-40{
     width: 40%;
     background-color: blueviolet;
+    height: 100px;
+}
+
+.col-footer{
+    width: calc(100% / 6 - 10px);
+    margin: 5px;
+    background-color: gold;
     height: 100px;
 }
 /* CONTAINER  */
