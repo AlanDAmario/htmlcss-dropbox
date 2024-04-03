@@ -21,7 +21,6 @@ footer{
 .container-70{
     margin: 0 auto;
     width: 60%;
-    background-color: darkgreen;
 }
 
 .container-70-yellow{
@@ -73,7 +72,6 @@ footer{
 }
 .col-33{
     width: calc(100% / 3 - 10px);
-    background-color: yellowgreen;
     margin: 5px;
 }
 
@@ -243,7 +241,16 @@ h1{
 }
 
 .professional{
-    padding: 30px 10px;
+    padding: 30px 25px 171px;
+    border: 1px solid black;
+}
+.advanced{
+    padding: 30px 25px;
+    border: 1px solid black;
+}
+
+.enterprise{
+    padding: 30px 25px 124px;
     border: 1px solid black;
 }
 
@@ -304,4 +311,9 @@ h1{
 
 .check i{
     color: blue;
+    font-size: 11px;
+}
+
+.check span{
+    font-size: 10px;
 }
