@@ -23,11 +23,6 @@ footer{
     width: 60%;
 }
 
-.container-70-yellow{
-    margin: 0 auto;
-    width: 60%;
-    background-color: rgba(172, 172, 8, 0.523);
-}
 
 .container-big-skyblue{
     max-width: 800px;
@@ -38,6 +33,10 @@ footer{
 
 .margin-left-20{
     margin-left: 20%;
+}
+
+.margin-top-60{
+    margin-top: 100px;
 }
 
 .margin-right{
@@ -129,8 +128,7 @@ footer{
 .square{
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color: rgb(13, 230, 114);
-    height: 300px;
+    background-color: beige;
 }
 
 
@@ -315,5 +313,97 @@ h1{
 }
 
 .check span{
+    font-size: 10px;
+}
+
+.team-build{
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.team-build span{
+    font-size: 12px;
+}
+
+.enterprise-title{
+    border: 1px solid black;
+    padding: 30px 30px;
+}
+
+.bold{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.contact-button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0061FF;
+    color: white;
+    font-size: 12px;
+    margin-left: 50%;
+}
+
+.display h2{
+    display: inline-block;
+}
+
+.font{
+    font-size: 12px;
+}
+
+.content-partner img{
+    width: 100%;
+}
+
+.content-dropbox{
+    text-align: left;
+    padding: 40px;
+}
+
+.content-dropbox p{
+    padding-top: 15px;
+}
+
+.content-dropbox button{
+    border: 0.5px solid black;
+    padding: 10px 20px;
+    font-size: 11px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.content-img img{
+    width: 100%;
+}
+
+.info-img p{
+    font-size: 13px;
+    padding: 20px 0 30px;
+}
+
+.box img{
+    width: 100%;
+    padding: 60px;
+}
+
+.square-img img{
+    width: 70%;
+    padding: 20px 20px 5px 20px;
+    
+}
+
+.designit-hr{
+    width: 30%;
+    color: grey;
+    padding: 20px 0 5px 20px;
+}
+
+
+
+.info-designit p{
+    padding: 30px 20px;
     font-size: 10px;
 }
