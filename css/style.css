@@ -58,7 +58,7 @@ footer{
     padding-top: 13%;
 }
 
-.padding-top-20{
+.padding-top-8{
     padding-top: 8%;
 }
 .padding-around{
@@ -102,13 +102,9 @@ footer{
     width: 100%;
 }
 
-
-
 .col-footer{
-    width: calc(100% / 6 - 10px);
-    margin: 5px;
-    background-color: gold;
-    height: 100px;
+    width: calc(100% / 5 - 10px);
+    margin: 5px 15px;
 }
 
 
@@ -462,7 +458,7 @@ h1{
     color: #5D0727;
 }
 
-.padding-top-20 ul li{
+.unordered-list > li{
     padding: 30px 0;
     list-style-type: none;
     font-size: 13px;
@@ -474,4 +470,39 @@ h1{
 }
 .arrow-list{
     padding-left: 29%;
+}
+
+.text-white{
+    color: white;
+}
+
+.footer-list > li{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+.footer-list > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+}
+
+.footer-list > li > a:hover{
+    text-decoration: underline;
+}
+
+
+.footer-hr{
+    margin: 40px 0 40px 10px;
+    width: 70px;
+}
+
+.language{
+    font-size: 10px;
+    color: grey;
+    margin: 0 0 40px 10px;
 }
